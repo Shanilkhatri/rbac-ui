@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Shaanil",
+      "email": "Shaanil@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": "251651",
+      "name": "Bobby",
+      "email": "khatri@ymail.com",
+      "role": "Editor",
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "936643",
+      "name": "Editor",
+      "permissions": [
+        "2",
+        "1"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "id": "1",
+      "name": "Read"
+    },
+    {
+      "id": "2",
+      "name": "Write"
+    },
+    {
+      "id": "3",
+      "name": "Delete"
+    },
+    {
+      "id": "4",
+      "name": "Manage Users"
+    },
+    {
+      "id": "5",
+      "name": "Manage Roles"
+    }
+  ]
+}
