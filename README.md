@@ -1,6 +1,6 @@
 # Role-Based Access Control (RBAC) Dashboard
 
-This project implements a **Role-Based Access Control (RBAC)** dashboard UI built with **React**, where users can manage roles, permissions, and users. The app is protected by authentication, and only authorized users can access the application. It uses **JSON Server** to simulate API calls for CRUD operations on users, roles, and permissions.
+This project implements a **Role-Based Access Control (RBAC)** dashboard UI built with **React**, where user can manage roles, permissions, and users. The app is protected by authentication, and only authorized user can access the application. It uses **JSON Server** to simulate API calls for CRUD operations on users, roles, and permissions.
 
 ## Table of Contents
 
@@ -50,8 +50,8 @@ The app is built using **React** and employs **JSON Server** to simulate API cal
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone <repository-url>
-   cd rbac-dashboard
+   git clone git@github.com:Shanilkhatri/rbac-ui.git
+   cd rbac-ui
 2. Install the required dependencies for React and JSON Server:
 
    ```bash 
@@ -70,7 +70,7 @@ To simulate API calls for users, roles, and permissions, we use json-server. Her
    ``` bash
     npx json-server --watch db.json --port 3001
 
-**Please use the same port as I have hardcoded it in my application.**
+**Please use the same port as I have hardcoded it in my application for simplicity.**
 
 3. This will start the JSON server on http://localhost:3001
 
@@ -81,6 +81,7 @@ Once the JSON Server is running, you can start the React app:
    ```bash
    npm start
    ```
+> run the command in the new window so that both json-server and react app run simultaneously.
 
 1. This will open the app in your browser at http://localhost:3000
 
